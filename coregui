@@ -1,0 +1,13 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/delzqa/KavoUI/main/KavoUI.txt"))()
+
+local Window = Library.CreateLib("Delzqaware [v1.1]", "DarkTheme")
+
+local Tab0 = Window:NewTab("Main")
+local Tab1 = Window:NewTab("Other")
+
+local Section0 = Tab0:NewSection("Main Tab")
+local Section1 = Tab1:NewSection("Other/Extra")
+
+Section0:NewButton("Hitbox", "ButtonInfo", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Script-hitbox-9367"))()
+end)
